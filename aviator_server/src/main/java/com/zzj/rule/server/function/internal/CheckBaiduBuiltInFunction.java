@@ -1,8 +1,10 @@
-package com.zzj.rule.server.function;
+package com.zzj.rule.server.function.internal;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.zzj.rule.server.api.FxResult;
+import com.zzj.rule.server.function.BusinessFunction;
+import com.zzj.rule.server.function.RiskCtrlFunctionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +17,10 @@ import java.util.Map;
  */
 @Service
 @Slf4j
-public class FxContractLinkageExceedsDownpayment extends FxCommon implements RiskCtrlFunctionService {
+public class CheckBaiduBuiltInFunction extends BusinessFunction implements RiskCtrlFunctionService {
     @Override
     public String getName() {
-        return "FxContractLinkageExceedsDownpayment";
+        return "CheckBaiduBuiltInFunction";
     }
 
     @Override
