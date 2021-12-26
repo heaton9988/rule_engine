@@ -25,6 +25,7 @@
 
     <modules>
         <module>aviator_server</module>
+        <module>rule-engine-api</module>
     </modules>
 
     <dependencyManagement>
@@ -136,6 +137,12 @@
                 <groupId>com.googlecode.aviator</groupId>
                 <artifactId>aviator</artifactId>
                 <version>5.2.7</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>rule-engine-api</artifactId>
+                <version>1.0-SNAPSHOT</version>
             </dependency>
 
         </dependencies>
