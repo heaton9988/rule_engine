@@ -24,8 +24,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>aviator_server</module>
         <module>rule-engine-api</module>
+        <module>rule-engine-server</module>
     </modules>
 
     <dependencyManagement>
