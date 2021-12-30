@@ -4,12 +4,16 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import com.zzj.rule.engine.api.utils.BooleanUtils;
+import com.zzj.rule.engine.api.utils.JSONUtils;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.util.StringUtils;
 
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -39,7 +43,9 @@ public class RuleTrace {
                 boolean result = callable.call();
                 long costDuration = System.currentTimeMillis() - startTimeInMillIs;
                 Map<String, Object> afterVariableMap = deepCopy(variables);
-                String script = new String(Base64Utils.decodeFromString(ruleScript));
+
+                String script = encodeToString(ruleScript.getBytes(StandardCharsets.UTF_8));
+//                String script = new String(Base64Utils.decodeFromString(ruleScript));
                 List<DiffObject> diffObjects = diffMap(originalVariableMap, afterVariableMap);
                 for (DiffObject diff : diffObjects) {
                     trace(ruleName, index, costDuration, diff.toString(), true);
@@ -147,5 +153,14 @@ public class RuleTrace {
         map.put("a", null);
         map.put("b", 1);
         System.out.println(JSONUtils.toJSONString(map));
+    }
+
+
+    public static String encodeToString(byte[] src) {
+        return src.length == 0 ? "" : new String(encode(src), StandardCharsets.UTF_8);
+    }
+
+    public static byte[] encode(byte[] src) {
+        return src.length == 0 ? src : Base64.getEncoder().encode(src);
     }
 }

@@ -47,13 +47,14 @@ public class ServerRuleLoader implements RuleLoader {
         String remoteAPI = REMOTE_SERVERS.get(env);
         URL url = new URL(remoteAPI.replace("${triggerEvent}", triggerEvent)
                 .replace("${tenantId}", tenantId));
-        
+
+        String domainUrl = "http://localhost:8080";
         Request request = new Request.Builder().url(domainUrl + "/spend/v1/contracts/7015582167590764838")
-                .header("Authorization", tenantAccessToken)
-                .header("X-TT-ENV", "zhouzhijun")
+//                .header("Authorization", tenantAccessToken)
+//                .header("X-TT-ENV", "zhouzhijun")
                 .build();
-        HttpUtils.get(request);
-        String rules = URLQuery.query(url, Maps.newHashMap());
+        String rules = HttpUtils.get(request);
+//        String rules = URLQuery.query(url, Maps.newHashMap());
         return JSONUtils.parseList(rules, RuleDTO.class).stream()
                 .map(RuleDTO::getRule)
                 .collect(Collectors.toList());

@@ -1,0 +1,95 @@
+{
+  "triggerEvent": "tenant.U123456.expense.save",
+  "debug": true,
+  "system": false,
+  "importClasses": ["com.bytedance.*"],
+  "ruleName": "报销币种不一致",
+  "ruleScript": {
+    "union": "AND",
+    "children": [
+      {
+        "keyType": "STRING",
+        "key": {
+          "expressionType": "EXPRESSION",
+          "expression": "reimbursement.owner.companyCountryCode"
+        },
+        "op": "EQ",
+        "value": {
+          "expressionType": "CONST",
+          "expression": "\"CN\""
+        }
+      },
+      {
+        "union": "AND",
+        "children": [
+          {
+            "keyType": "DECIMAL",
+            "key": {
+              "expressionType": "EXPRESSION",
+              "expression": "a=1"
+            },
+            "op": "VOID"
+          },
+          {
+            "keyType": "BOOLEAN",
+            "key": {
+              "expressionType": "EXPRESSION",
+              "expression": "b=true"
+            },
+            "op": "VOID"
+          }
+        ]
+      },
+      {
+        "keyType": "OBJECT",
+        "key": {
+          "expressionType": "EXPRESSION",
+          "expression": "reimbursement.owner.companyCountryCode=\"JP\""
+        },
+        "op": "VOID"
+      },
+      {
+        "keyType": "DECIMAL",
+        "key": {
+          "expressionType": "EXPRESSION",
+          "expression": "a=a * 3"
+        },
+        "op": "VOID"
+      },
+      {
+        "keyType": "STRING",
+        "key": {
+          "expressionType": "EXPRESSION",
+          "expression": "reimbursement.localCurrency"
+        },
+        "op": "NOT_EQ",
+        "value": {
+          "expressionType": "EXPRESSION",
+          "expression": "reimbursement.currency"
+        }
+      }
+    ]
+  },
+  "ruleCommands": [{
+    "command": "TAG",
+    "activeCondition": {
+      "keyType": "STRING",
+      "key": {
+        "expressionType": "EXPRESSION",
+        "expression": "reimbursement.localCurrency"
+      },
+      "op": "NOT_EQ",
+      "value": {
+        "expressionType": "EXPRESSION",
+        "expression": "reimbursement.currency"
+      }
+    },
+    "args": [
+      "REIMBURSEMENT",
+      "/** script */reimbursement.unionId",
+      "/** i18n *//** script */\"你爸是淡粉色我 Hi\"",
+      "STRONG",
+      "报销币种与公司币种不一致，可联系@{onCall}咨询"
+    ]
+  }]
+}
