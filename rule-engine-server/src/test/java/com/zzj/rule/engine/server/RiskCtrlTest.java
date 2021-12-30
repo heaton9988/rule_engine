@@ -1,4 +1,5 @@
-import com.zzj.rule.engine.server.RuleEngineServerApplication;
+package com.zzj.rule.engine.server;
+
 import com.zzj.rule.engine.server.entity.RiskCtrlRuleHeader;
 import com.zzj.rule.engine.server.mapper.RiskCtrlRuleHeaderMapper;
 import org.junit.Test;

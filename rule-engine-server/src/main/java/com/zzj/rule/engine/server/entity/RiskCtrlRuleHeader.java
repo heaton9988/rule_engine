@@ -14,7 +14,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class RiskCtrlRuleHeader extends BaseEntity {
+public class RiskCtrlRuleHeader extends BaseEntity<RiskCtrlRuleHeader> {
 
     private static final long serialVersionUID = 1L;
 

@@ -14,7 +14,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class RiskCtrlTriggerAssignRule extends BaseEntity {
+public class RiskCtrlTriggerAssignRule extends BaseEntity<RiskCtrlTriggerAssignRule> {
 
     private static final long serialVersionUID = 1L;
 

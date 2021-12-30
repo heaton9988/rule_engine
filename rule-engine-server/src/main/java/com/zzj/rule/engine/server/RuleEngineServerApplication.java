@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-@MapperScan("com.zzj.rule.server.mapper")
+@MapperScan("com.zzj.rule.engine.server.mapper")
 public class RuleEngineServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(RuleEngineServerApplication.class, args);
