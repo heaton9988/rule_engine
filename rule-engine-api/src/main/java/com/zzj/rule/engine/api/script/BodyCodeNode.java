@@ -5,8 +5,6 @@ import com.zzj.rule.engine.api.RuleContext;
 import com.zzj.rule.engine.api.RuleScript;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 public class BodyCodeNode extends AstNode {
 

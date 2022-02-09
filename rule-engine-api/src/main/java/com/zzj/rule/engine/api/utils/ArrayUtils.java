@@ -3,8 +3,6 @@ package com.zzj.rule.engine.api.utils;
 import java.lang.reflect.Array;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/5/6
  */
 public class ArrayUtils {
 

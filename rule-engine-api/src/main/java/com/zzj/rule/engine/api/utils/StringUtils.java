@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 public class StringUtils {
 

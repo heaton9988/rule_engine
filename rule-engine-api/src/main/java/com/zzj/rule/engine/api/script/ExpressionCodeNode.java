@@ -1,10 +1,7 @@
 package com.zzj.rule.engine.api.script;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
-
 import com.google.common.collect.Maps;
 import com.zzj.rule.engine.api.RuleScript;
 import com.zzj.rule.engine.api.enums.Expression;

@@ -8,7 +8,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
 
 /**
- * @author : jianglei.d@bytedance.com
  * @date : 2019/11/28 12:54 下午
  * @description: The class Spring context holder
  */

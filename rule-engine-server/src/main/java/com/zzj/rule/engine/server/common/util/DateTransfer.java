@@ -11,7 +11,6 @@ import java.util.TimeZone;
 /**
  * <p>date和 localDate转换</p>
  *
- * @author dingguangsheng<dingguangsheng @ bytedance.com>
  * @date 04/22/2021
  */
 @Slf4j

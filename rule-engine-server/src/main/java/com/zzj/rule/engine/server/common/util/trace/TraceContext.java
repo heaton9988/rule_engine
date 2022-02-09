@@ -6,7 +6,6 @@ import org.slf4j.MDC;
 import java.util.Stack;
 
 /**
- * @author : jianglei.d@bytedance.com
  * @date : 2020/10/26 4:01 下午
  * @description:
  */

@@ -15,8 +15,6 @@ import java.util.Set;
 import java.util.concurrent.Callable;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 public class ScriptTransformer {
 

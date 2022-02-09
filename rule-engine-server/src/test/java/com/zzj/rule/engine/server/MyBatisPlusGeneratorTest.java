@@ -87,7 +87,7 @@ public class MyBatisPlusGeneratorTest {
         // 生成 @RestController控制器
 //        strategy.setRestControllerStyle(true);
         // 自定义继承的Controller类全称，带包名
-//        strategy.setSuperControllerClass("com.bytedance.ea.cam.core.base.controller.BaseController");
+//        strategy.setSuperControllerClass("com.ea.cam.core.base.controller.BaseController");
         // 需要包含的表名，允许正则表达式（与exclude二选一配置）
 //        strategy.setInclude("risk_ctrl_rule_header", "risk_ctrl_rule_detail", "risk_ctrl_trigger_assign_rule");
         strategy.setInclude("t_rule");

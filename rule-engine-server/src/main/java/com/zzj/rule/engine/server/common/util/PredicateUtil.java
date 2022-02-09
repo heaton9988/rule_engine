@@ -1,11 +1,4 @@
-/**
- * *****************************************************
- * Copyright (C) 2021 bytedance.com. All Rights Reserved
- * This file is part of bytedance EA project.
- * Unauthorized copy of this file, via any medium is strictly prohibited.
- * Proprietary and Confidential.
- * ****************************************************
- **/
+
 package com.zzj.rule.engine.server.common.util;
 
 import java.util.Map;
@@ -14,7 +7,6 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
 /**
- * @author zhaoanka<zhaoanka @ bytedance.com>
  * @date 05/09/2021
  **/
 public class PredicateUtil {

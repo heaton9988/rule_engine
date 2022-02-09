@@ -1,11 +1,3 @@
-/**
- * *****************************************************
- * Copyright (C) 2021 bytedance.com. All Rights Reserved
- * This file is part of bytedance EA project.
- * Unauthorized copy of this file, via any medium is strictly prohibited.
- * Proprietary and Confidential.
- * ****************************************************
- **/
 
 package com.zzj.rule.engine.server.common.util.bean;
 
@@ -16,7 +8,6 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * @author liuzhifu<liuzhifu.deaco @ bytedance.com>
  * @date 06/07/2021 9:14 下午
  */
 public class GenericBuilder<T> {

@@ -1,8 +1,6 @@
 package com.zzj.rule.engine.api.utils;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/5/12
  */
 public class BooleanUtils {
 

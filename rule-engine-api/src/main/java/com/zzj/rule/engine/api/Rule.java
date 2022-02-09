@@ -8,10 +8,6 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 import java.util.Set;
 
-/**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
- */
 @Data
 @Builder
 @NoArgsConstructor

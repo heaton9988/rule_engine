@@ -32,8 +32,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2020/6/21
  */
 @Slf4j
 public class JSONUtils {

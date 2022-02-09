@@ -8,8 +8,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 public class CodeTraceNode extends BodyCodeNode {
 

@@ -2,8 +2,6 @@ package com.zzj.rule.engine.api.enums;
 
 /**
  * 操作符.
- * @author : zhuhongying@bytedance.com
- * @since : 2020/10/16
  */
 public enum OperateEnum {
     TODAY,

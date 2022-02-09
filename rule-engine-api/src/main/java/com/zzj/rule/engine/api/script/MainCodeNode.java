@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 public class MainCodeNode extends AstNode {
 

@@ -1,21 +1,13 @@
-/**
- * *****************************************************
- * Copyright (C) 2021 bytedance.com. All Rights Reserved
- * This file is part of bytedance EA project.
- * Unauthorized copy of this file, via any medium is strictly prohibited.
- * Proprietary and Confidential.
- * ****************************************************
- **/
 package com.zzj.rule.engine.server.common.util;
 
-import org.springframework.util.StringUtils;
+
+import com.zzj.rule.engine.api.utils.StringUtils;
 
 import java.util.Collections;
 
 /**
  * 脱敏工具类
  *
- * @author zhaoanka<zhaoanka @ bytedance.com>
  * @date 03/24/2021
  **/
 public class DesensitizationUtil {

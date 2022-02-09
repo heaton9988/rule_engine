@@ -2,8 +2,6 @@ package com.zzj.rule.engine.api.enums;
 
 /**
  * 字段类型.
- * @author : zhuhongying@bytedance.com
- * @since : 2020/10/16
  */
 public enum KeyTypeEnum {
     OBJECT, // 对象

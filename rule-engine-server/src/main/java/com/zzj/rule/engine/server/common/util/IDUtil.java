@@ -8,7 +8,6 @@ import java.util.UUID;
 import java.util.stream.IntStream;
 
 /**
- * @author : jianglei.d@bytedance.com
  * @date : 2019/11/28 11:42 上午
  * @description:
  */

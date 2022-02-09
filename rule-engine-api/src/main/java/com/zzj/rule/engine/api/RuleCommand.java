@@ -7,9 +7,6 @@ import lombok.NoArgsConstructor;
 
 /**
  * 规则返回指令.
- *
- * @author : zhuhongying@bytedance.com
- * @since : 2020/10/10
  */
 @Data
 @Builder

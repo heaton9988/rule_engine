@@ -1,11 +1,3 @@
-/**
- * *****************************************************
- * Copyright (C) 2021 bytedance.com. All Rights Reserved
- * This file is part of bytedance EA project.
- * Unauthorized copy of this file, via any medium is strictly prohibited.
- * Proprietary and Confidential.
- * ****************************************************
- **/
 package com.zzj.rule.engine.server.common.util;
 
 import org.springframework.util.StringUtils;
@@ -18,7 +10,6 @@ import java.io.InputStreamReader;
 /**
  * 文件工具类
  *
- * @author zhaoanka<zhaoanka @ bytedance.com>
  * @date 08/15/2021
  **/
 public class FileUtil {

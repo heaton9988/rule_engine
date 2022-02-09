@@ -12,8 +12,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 @Slf4j
 public class RuleTest {

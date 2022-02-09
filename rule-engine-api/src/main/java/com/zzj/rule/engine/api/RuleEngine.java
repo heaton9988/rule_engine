@@ -20,8 +20,6 @@ import java.util.Optional;
 /**
  * 规则执行引擎.
  *
- * @author : zhuhongying@bytedance.com
- * @since : 2020/10/9
  */
 @Slf4j
 public class RuleEngine {

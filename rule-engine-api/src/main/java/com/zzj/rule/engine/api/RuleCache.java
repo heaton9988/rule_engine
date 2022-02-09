@@ -8,10 +8,6 @@ import java.util.Optional;
 import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author : zhuhongying@bytedance.com
- * @since : 2020/10/23
- */
 @Slf4j
 public class RuleCache {
 

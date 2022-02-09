@@ -1,7 +1,6 @@
 package com.zzj.rule.engine.server.common.util.trace;
 
 /**
- * @Author：jianglei.d@bytedance.com
  * @Date: 2020/10/27 7:28 下午
  * @Description:
  */

@@ -5,8 +5,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 public class IOUtils {
 

@@ -11,8 +11,6 @@ import java.nio.charset.Charset;
 import java.util.List;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/4/6
  */
 public class ClassPathRuleLoader implements RuleLoader {
     private String classpath;

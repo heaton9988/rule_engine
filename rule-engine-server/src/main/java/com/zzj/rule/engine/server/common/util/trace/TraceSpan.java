@@ -7,7 +7,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author : jianglei.d@bytedance.com
  * @date : 2020/10/25 9:52 下午
  * @description:
  */

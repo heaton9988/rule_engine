@@ -1,12 +1,4 @@
-///**
-// * *****************************************************
-// * Copyright (C) 2021 bytedance.com. All Rights Reserved
-// * This file is part of bytedance EA project.
-// * Unauthorized copy of this file, via any medium is strictly prohibited.
-// * Proprietary and Confidential.
-// * ****************************************************
-// **/
-//
+
 //package com.zzj.rule.engine.server.common.util.tag.form;
 //
 //import com.bytedance.ea.saas.util.JSONUtil;
@@ -21,7 +13,6 @@
 //import java.util.List;
 //
 ///**
-// * @author liuzhifu<liuzhifu.deaco @ bytedance.com>
 // * @date 06/10/2021 9:52 下午
 // */
 //public class Form {

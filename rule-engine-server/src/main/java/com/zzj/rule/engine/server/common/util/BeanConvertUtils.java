@@ -1,6 +1,6 @@
 package com.zzj.rule.engine.server.common.util;
 
-import org.springframework.util.CollectionUtils;
+import org.apache.commons.collections.CollectionUtils;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 /**
  * bean 转换通用工具类
  *
- * @author lintao.lt@bytedance.com>
  * @date 09/12/2021 6:04 下午
  */
 public class BeanConvertUtils {

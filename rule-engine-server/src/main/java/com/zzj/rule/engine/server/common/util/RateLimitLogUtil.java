@@ -1,11 +1,4 @@
-/**
- * *****************************************************
- * Copyright (C) 2021 bytedance.com. All Rights Reserved
- * This file is part of bytedance EA project.
- * Unauthorized copy of this file, via any medium is strictly prohibited.
- * Proprietary and Confidential.
- * ****************************************************
- */
+
 package com.zzj.rule.engine.server.common.util;
 
 import com.google.common.collect.Maps;
@@ -17,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * <p>控制频率的日志工具类</p>
  *
- * @author zhouzhijun<zhouzhijun.xavier @ bytedance.com>
  * @date 07/30/2021
  */
 @Slf4j

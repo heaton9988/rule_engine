@@ -9,7 +9,6 @@ import lombok.Data;
 
 
 /**
- * @author : jianglei.d@bytedance.com
  * @date : 2019/11/29 9:27 下午
  * @description: 基础Entity
  */

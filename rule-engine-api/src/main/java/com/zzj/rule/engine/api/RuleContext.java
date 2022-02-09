@@ -7,8 +7,6 @@ import java.util.Map;
 
 /**
  * 规则上下文.
- * @author : zhuhongying@bytedance.com
- * @since : 2020/10/10
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

@@ -1,8 +1,6 @@
 package com.zzj.rule.engine.api.hint;
 
 /**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/5/6
  */
 public interface ArgHint extends Comparable<ArgHint> {
 

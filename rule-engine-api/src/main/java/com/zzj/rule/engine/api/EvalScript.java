@@ -14,10 +14,6 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
 
-/**
- * @author : zhuhongying@bytedance.com
- * @since : 2021/6/30
- */
 @Data
 @Builder
 @NoArgsConstructor

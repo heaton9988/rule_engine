@@ -5,7 +5,6 @@ import java.net.UnknownHostException;
 import java.time.Instant;
 
 /**
- * @author : jianglei.d@bytedance.com
  * @date : 2021/2/23 2:05 下午
  * @description:
  */

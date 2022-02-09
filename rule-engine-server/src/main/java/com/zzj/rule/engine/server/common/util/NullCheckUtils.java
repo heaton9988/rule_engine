@@ -1,12 +1,3 @@
-/**
- * *****************************************************
- * Copyright (C) 2021 bytedance.com. All Rights Reserved
- * This file is part of bytedance EA project.
- * Unauthorized copy of this file, via any medium is strictly prohibited.
- * Proprietary and Confidential.
- * ****************************************************
- **/
-
 package com.zzj.rule.engine.server.common.util;
 
 import org.apache.commons.lang3.StringUtils;
@@ -14,7 +5,6 @@ import org.apache.commons.lang3.StringUtils;
 import java.math.BigDecimal;
 
 /**
- * @author liuzhifu<liuzhifu.deaco @ bytedance.com>
  * @date 06/08/2021 12:04 下午
  */
 public class NullCheckUtils {

@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * 前端规则模型.
- * @author : zhuhongying@bytedance.com
- * @since : 2020/10/9
  */
 @Data
 public final class RuleScript {
