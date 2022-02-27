@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <properties>
-        <spring.boot.version>2.4.0</spring.boot.version>
+        <spring.boot.version>2.1.4.RELEASE</spring.boot.version>
     </properties>
 
     <parent>
@@ -151,6 +151,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
+                <version>5.3.1</version>
             </dependency>
             <dependency>
                 <groupId>org.testng</groupId>
